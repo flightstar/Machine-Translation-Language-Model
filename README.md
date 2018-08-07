@@ -1,5 +1,5 @@
 # Machine-Translation-Language-Model
-Translate some languages as Japanese, Korean, Chinese, English, French, German, Vietnamses from text, website
+Translate some languages as Japanese, Korean, Chinese, English, French, German, Vietnamses from text, website use to Python, C 
 
 # Document:
 
@@ -18,3 +18,5 @@ Translating Phrases in Neural Machine Translation, http://aclweb.org/anthology/D
 Domain Adaptation and Attention-Based Unknown Word Replacement in Chinese-to-Japanese Neural Machine Translation, http://www.aclweb.org/anthology/W16-4605
 
 Speeding Up Neural Machine Translation Decoding by Shrinking Run-time Vocabulary, http://xingshi.me/data/pdf/ACL2017short.pdf
+
+Effective Approaches to Attention-based Neural Machine Translation, https://arxiv.org/pdf/1508.04025.pdf
