@@ -1,2 +1,2 @@
 # Machine-Translation-Language-Model
-Translate some languages as Japanese, Korea, China, English, France, Vietnamses from text, website
+Translate some languages as Japanese, Korean, Chinese, English, French, German, Vietnamses from text, website
