@@ -1,8 +1,9 @@
-# Machine-Translation-Language-Model
+# Machine Translation Languages
 Translate some languages as Japanese, Korean, Chinese, English, French, German, Vietnamses from text, website use to Python, C 
 
-# Document:
+![](https://camo.githubusercontent.com/6340603acc1062d8ec6d274283a48fc7562bc8ba/687474703a2f2f6f70656e6e6d742e6769746875622e696f2f73696d706c652d6174746e2e706e67)
 
+# Document:
 Flightstar's dataset: https://www.kaggle.com/flightstar/datasets
 
 Japanese to English Machine Translation using Preordering and Compositional Distributed Semantics, http://www.aclweb.org/anthology/W14-7008
