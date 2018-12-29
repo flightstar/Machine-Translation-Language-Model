@@ -3,6 +3,8 @@ Translate some languages as Japanese, Korean, Chinese, English, French, German, 
 
 # Document:
 
+Flightstar's dataset: https://www.kaggle.com/flightstar/datasets
+
 Japanese to English Machine Translation using Preordering and Compositional Distributed Semantics, http://www.aclweb.org/anthology/W14-7008
 
 Japanese-to-English Machine Translation Using Recurrent Neural Networks, https://cs224d.stanford.edu/reports/GreensteinEric.pdf
