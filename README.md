@@ -14,7 +14,6 @@ def read_words(inputfile):
             buf = f.read(10240)
             if not buf:
                 break
-
             # The word end on a space (word boundary)
             while not str.isspace(buf[-1]):
                 ch = f.read(1)
@@ -26,7 +25,6 @@ def read_words(inputfile):
             for word in words:
                 yield word
         yield '' # handle the scene that the file is empty
-
 if __name__ == "__main__":
     for word in read_words('./very_large_file.txt'):
         process(word)
