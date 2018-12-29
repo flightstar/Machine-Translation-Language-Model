@@ -4,6 +4,33 @@ Translate some languages as Japanese, Korean, Chinese, English, French, German, 
 ![](https://camo.githubusercontent.com/6340603acc1062d8ec6d274283a48fc7562bc8ba/687474703a2f2f6f70656e6e6d742e6769746875622e696f2f73696d706c652d6174746e2e706e67)
 
 # Document:
+
+Load dataset:
+
+```py
+def read_words(inputfile):
+    with open(inputfile, 'r') as f:
+        while True:
+            buf = f.read(10240)
+            if not buf:
+                break
+
+            # The word end on a space (word boundary)
+            while not str.isspace(buf[-1]):
+                ch = f.read(1)
+                if not ch:
+                    break
+                buf += ch
+            # default split a string by spaces
+            words = buf.split()
+            for word in words:
+                yield word
+        yield '' # handle the scene that the file is empty
+
+if __name__ == "__main__":
+    for word in read_words('./very_large_file.txt'):
+        process(word)
+```
 Flightstar's dataset: https://www.kaggle.com/flightstar/datasets
 
 Japanese to English Machine Translation using Preordering and Compositional Distributed Semantics, http://www.aclweb.org/anthology/W14-7008
